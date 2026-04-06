@@ -37,34 +37,6 @@ The project focuses on building a scalable React application with clean architec
 
 ---
 
-## 📁 Project Structure
-
-```
-MealMap
-│── src
-│   │── components
-│   │   │── Header
-│   │   │── Body
-│   │   │── RestaurantCard
-│   │   │── RestaurantMenu
-│   │   │── Cart
-│   │   │── Shimmer
-│   │
-│   │── utils
-│   │   │── constants.js
-│   │   │── helpers.js
-│   │   │── customHooks.js
-│   │
-│   │── App.js
-│   │── index.js
-│
-│── public
-│── index.html
-│── package.json
-```
-
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone the repository

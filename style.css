@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* App */
+.app {
+  background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Logo */
+.logo {
+  width: 65px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Nav */
+.nav-items ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+/* Nav Items */
+.nav-items ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3d3d3d;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Hover */
+.nav-items ul li:hover {
+  color: #ff6b00;
+}
+
+/* Cart Button */
+.nav-items ul li:last-child {
+  background-color: #ff6b00;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav-items ul li:last-child:hover {
+  background-color: #e65c00;
+}
+
+/* Body */
+.body {
+  padding: 30px 80px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+/* Search Bar */
+.search {
+  margin-bottom: 25px;
+}
+
+.search input {
+  padding: 5px 10px;
+  width: 300px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.search input:focus {
+  outline: none;
+  border-color: #ff6b00;
+}
+
+/* Restaurant Container */
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+/* Restaurant Card */
+.res-card {
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #ececec;
+  overflow: hidden;
+  padding-bottom: 14px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.res-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.res-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+}
+
+/* Restaurant Name */
+.res-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #222;
+  margin: 10px 12px 5px 12px;
+}
+
+/* Rating */
+.rating {
+  font-size: 13px;
+  margin: 0 12px 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Green star box */
+.rating-badge {
+  background-color: #1ba672;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 6px;
+}
+
+/* Remaining text */
+.rating-text {
+  color: #555;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* Cuisine */
+.cuisine {
+  font-size: 13px;
+  font-weight: 300;
+  color: #777;
+  margin: 0 12px 4px 12px;
+}
+
+/* Address */
+.address {
+  font-size: 12px;
+  font-weight: 300;
+  color: #999;
+  margin: 0 12px;
+}

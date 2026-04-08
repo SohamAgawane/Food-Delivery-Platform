@@ -1,5 +1,5 @@
 const RestaurantCard = ({ resData }) => {
-    const { resName, cuisine, ratingBadge, ratingText, image, address } = resData;
+    const { resName, cuisine, rating, ratingText, image, address } = resData;
 
     return (
         <div className="res-card" style={{ backgroundColor: "#ffffff" }}>
@@ -7,7 +7,7 @@ const RestaurantCard = ({ resData }) => {
             <h3>{resName}</h3>
 
             <h4 className="rating">
-                <span className="rating-badge">{ratingBadge}</span>
+                <span className="rating-badge">{"★ " + rating}</span>
                 <span className="rating-text">{ratingText}</span>
             </h4>
 

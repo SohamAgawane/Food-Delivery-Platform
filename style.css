@@ -74,23 +74,53 @@ body {
 }
 
 /* Search Bar */
-.search {
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 25px;
 }
 
-.search input {
-  padding: 5px 10px;
+.filter input {
+  padding: 8px 12px;
   width: 300px;
-  height: 35px;
+  height: 38px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  margin-left: 10px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
-.search input:focus {
+.filter input:focus {
   outline: none;
   border-color: #ff6b00;
+}
+
+/* Button */
+.filter-btn {
+  padding: 8px 16px;
+  height: 38px;
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #e65c00;
+}
+
+.filter-btn:active {
+  transform: scale(0.96);
+}
+
+/* Restaurant container (optional improvement) */
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* Restaurant Container */
